@@ -1,3 +1,110 @@
 body{
-  background-color: yellow;
+    position: relative;
+    background-image: url("linkouPic/background_fit%20to%20window.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+    
 }
+
+.menu{
+    background: #202024 url("linkouPic/side_menu_background.jpg") repeat left top;
+    background-size: 285px 640px;
+    background-repeat: no-repeatno;
+    left: -285px;  /* start off behind the scenes */
+    height: 100%;
+    position: fixed;
+    width: 285px;
+    z-index: 3; 
+}
+#menuIcon{
+    position:absolute;
+    left:5% auto;
+    top:5% auto;
+    width:50px;
+    height:50px;
+}
+.linkou{
+    position:absolute;
+    top;0%;
+    left:13%;
+    
+}
+
+#linkou_outline{
+    position:absolute;
+    z-index: 1;
+}
+
+#linkou_painted{
+    position:absolute;
+    z-index: 0;
+}
+
+.colorit{
+    position: absolute;
+    z-index: 3;
+    bottom: 10%;
+    left:25%;
+    width:230px;
+    height:83px;
+    cursor: pointer;
+}
+
+.colorithover{
+    position: absolute;
+    z-index: 3;
+    bottom: 10%;
+    left:25%;
+    width:230px;
+    height:83px;
+    cursor: pointer;
+}
+
+.again{
+    position: absolute;
+    z-index: 3;
+    bottom: 10%;
+    left:25%;
+    width:230px;
+    height:83px;
+    cursor: pointer;
+}
+
+h2{
+    margin-top: 1%;
+    margin-left: 2%;
+    position:absolute;
+    z-index:2;
+    font-size:44pt;
+    color: white;
+}
+
+#about{
+    position:relative;
+    top:10%;
+    text-align:center;
+    cursor: pointer;
+}
+
+#location{
+    position:relative;
+    top:10%;
+    text-align:center;
+    cursor: pointer;
+}
+
+#catagory{
+    position:relative;
+    top:13%;
+    text-align:center;
+    cursor: pointer;
+}
+
+#close{
+    position: relative;
+    top:7%;
+    text-align: center;
+    cursor:pointer;
+}
+
