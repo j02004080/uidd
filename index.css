@@ -80,31 +80,176 @@ h2{
     color: white;
 }
 
-#about{
-    position:relative;
-    top:10%;
-    text-align:center;
+.about1{
+    position:absolute;
+    top:20%;
+    left:15%;
     cursor: pointer;
 }
 
-#location{
-    position:relative;
-    top:10%;
-    text-align:center;
+.about2{
+    position:absolute;
+    top:20%;
+    left:15%;
     cursor: pointer;
 }
 
-#catagory{
-    position:relative;
-    top:13%;
-    text-align:center;
+.location1{
+    position:absolute;
+    top:35%;
+    left:15%;
     cursor: pointer;
 }
 
-#close{
+.location2{
+    position:absolute;
+    top:35%;
+    left:15%;
+    cursor: pointer;
+}
+
+.catagory1{
+    position:absolute;
+    top:55%;
+    left:15%;
+    cursor: pointer;
+}
+
+.catagory2{
+    position:absolute;
+    top:55%;
+    left:15%;
+    cursor: pointer;
+}
+
+.close{
     position: relative;
     top:7%;
     text-align: center;
     cursor:pointer;
 }
 
+.about{
+    background-size: 650px 640px;
+    background-color:white;
+    height:100%;
+    width:650px;
+    left:-650px;
+    z-index:3;
+    position:fixed;
+}
+
+.title1{
+    position:absolute;
+    left:10%;
+    top:0%;
+    width:600px;
+    height: 13%;
+    z-index:3;
+}
+.discribe{
+    position:absolute;
+    left:10%;
+    top:22%;
+    width:190px;
+    height: 70%;
+    z-index:3;
+}
+
+.contimg{
+    position:absolute;
+    left:43%;
+    top:25%;
+    width:310px;
+    height:70%;
+    z-index: 3;
+}
+
+.locatimg1{
+    position:relative;
+    top:2%;
+}
+
+#p1{
+    font-size: 32pt;
+    border-top:0px;
+}
+#p2{
+    font-size: 28pt;
+    border-top:0px;
+}
+
+#p3{
+    font-size: 28pt;
+    border-top:0px;
+}
+
+.location{
+    background-size: 650px 640px;
+    background-color:white;
+    height:100%;
+    width:650px;
+    left:-650px;
+    z-index:3;
+    position:fixed;
+}
+
+.title2{
+    position:absolute;
+    left:5%;
+    top:0%;
+    width:600px;
+    height: 13%;
+    z-index:3;
+}
+
+.transport{
+    position:absolute;
+    left:5%;
+    top:22%;
+    width:190px;
+    height: 70%;
+    z-index:3;
+}
+
+.transimg{
+    position:absolute;
+    left:40%;
+    top:25%;
+    width:310px;
+    height:70%;
+    z-index: 3;
+}
+
+.map{
+    position:relative;
+    top:2%;
+}
+
+.catagory{
+    background-size: 650px 640px;
+    background-color:white;
+    height:100%;
+    width:650px;
+    left:-650px;
+    z-index:3;
+    position:fixed;
+}
+
+.title3{
+    position:absolute;
+    left:5%;
+    top:0%;
+    width:600px;
+    height: 13%;
+    z-index:3;
+}
+
+.catagorylist{
+    position:absolute;
+    left:5%;
+    top:22%;
+    width:190px;
+    height: 70%;
+    z-index:3;
+}
